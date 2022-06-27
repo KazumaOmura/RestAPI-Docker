@@ -21,7 +21,7 @@ $ go run main.go
 
 ## API叩く
 
-### HTTpリクエスト
+### HTTPリクエスト
 ```
 GET http://localhost:7777/api/books
 ```
