@@ -18,3 +18,24 @@ $ go mod init
 $ go mod tidy
 $ go run main.go
 ```
+
+## API叩く
+
+### HTTpリクエスト
+```
+GET http://localhost:7777/api/books
+```
+
+### 返却されるJSON
+```
+[
+    {
+        "id": "1",
+        "title": "Book one"
+    },
+    {
+        "id": "2",
+        "title": "Book Two"
+    }
+]
+```
