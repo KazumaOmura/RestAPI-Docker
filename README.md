@@ -19,7 +19,7 @@ $ go mod tidy
 $ go run main.go
 ```
 
-## API叩く
+## API確認
 
 ### HTTPリクエスト
 ```
